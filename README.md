@@ -5,7 +5,7 @@ Pacakages for ubuntu 16.04 :-
 # sudo apt-get install make libssh2-1-dev libtelnet-dev libpango1.0-dev libossp-uuid-dev libcairo2-dev libpng12-dev freerdp-x11 libssh2-1 libvncserver-dev libfreerdp-dev libvorbis-dev libssl0.9.8 gcc libssh-dev libpulse-dev tomcat7 tomcat7-admin tomcat7-docs ghostscript
 
 Now test tomcat works properly or not with below syntex:- 
-http://servername-oder-ip:8080
+http://servername-ip:8080
 Output :- IT works!
 Release Version:-
 Guacamole 0.9.6
