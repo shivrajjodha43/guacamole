@@ -69,15 +69,13 @@ Guacamole server configuration:-
 # mkdir /etc/guacamole
 # nano /etc/guacamole/guacamole.properties
 #############################################################
-# genaue Beschreibung der Paramter siehe unter
-# http://guac-dev.org/doc/gug/configuring-guacamole.html#initial-setup
 # -------------------------------------------------------------------- 
 
 # Hostname and port
 guacd-hostname: localhost
 guacd-port: 4822
 
-# Pfad zu .jar 
+# .jar 
 lib-directory: /var/lib/tomcat7/webapps/guacamole/WEB-INF/classes
 
 # Welcome page
@@ -92,11 +90,8 @@ basic-user-mapping: /etc/guacamole/user-mapping.xml
 
 <user-mapping>
 
-    <!-- Pro Benutzer gibt es einen Abschnitt für Benutzername, Passwort -->
-    <!-- und den verfügbaren Verbindungen für diesen Benutzer -->
-
-    <!-- Benutzer Administrator-->
-    <authorize username="admin" password="geheimesPasswort">
+    <!--  Administrator-->
+    <authorize username="admin" password="adminpassword">
 
         <!-- Verbindung 1 für Benuter admin -->
         <!-- RDP - Remotedesktop-Verbindung -->
